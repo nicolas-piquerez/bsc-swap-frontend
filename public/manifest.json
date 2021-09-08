@@ -1,8 +1,8 @@
 {
-  "short_name": "PancakeSwap",
-  "name": "PancakeSwap",
-  "description": "Farm CAKE with Pancake LP Tokens",
-  "homepage_url": "https://pancakeswap.finance",
+  "short_name": "Swap",
+  "name": "Swap",
+  "description": "Swap and Earn with swap.org",
+  "homepage_url": "https://swap.org",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#1FC7D4",

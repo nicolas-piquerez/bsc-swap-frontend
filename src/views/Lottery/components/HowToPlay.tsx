@@ -325,7 +325,7 @@ const HowToPlay: React.FC = () => {
                 {t(
                   '10,000 CAKE from the treasury is added to a lottery round every other day. This CAKE is of course also included in rollovers! Read more in our guide to ',
                 )}
-                <InlineLink href="https://docs.pancakeswap.finance/tokenomics/cake/cake-tokenomics">
+                <InlineLink href="https://docs.swap.org/tokenomics/cake/cake-tokenomics">
                   {t('CAKE Tokenomics')}
                 </InlineLink>
               </Text>
@@ -347,7 +347,7 @@ const HowToPlay: React.FC = () => {
           </Heading>
           <Text>
             {t('Check our in-depth guide on')}{' '}
-            <InlineLink href="https://docs.pancakeswap.finance/products/lottery/lottery-guide">
+            <InlineLink href="https://docs.swap.org/products/lottery/lottery-guide">
               {t('how to play the PancakeSwap lottery!')}
             </InlineLink>
           </Text>

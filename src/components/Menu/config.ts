@@ -8,23 +8,33 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     href: '/',
   },
   {
-    label: t('Trade'),
+    label: t('Exchange'),
     icon: 'TradeIcon',
-    items: [
-      {
-        label: t('Exchange'),
-        href: '/swap',
-      },
-      {
-        label: t('Liquidity'),
-        href: '/pool',
-      },
-      // {
-      //   label: t('LP Migration'),
-      //   href: 'https://v1exchange.pancakeswap.finance/#/migrate',
-      // },
-    ],
+    href: '/swap',
   },
+  {
+    label: t('Liquidity'),
+    icon: 'PredictionsIcon',
+    href: '/pool',
+  },
+  // {
+  //   label: t('Trade'),
+  //   icon: 'TradeIcon',
+  //   items: [
+  //     // {
+  //     //   label: t('Exchange'),
+  //     //   href: '/swap',
+  //     // },
+  //     {
+  //       label: t('Liquidity'),
+  //       href: '/pool',
+  //     },
+  //     // {
+  //     //   label: t('LP Migration'),
+  //     //   href: 'https://v1exchange.pancakeswap.finance/#/migrate',
+  //     // },
+  //   ],
+  // },
   {
     label: t('Farms'),
     icon: 'FarmIcon',
@@ -89,7 +99,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: 'https://docs.pancakeswap.finance/contact-us',
+        href: 'https://docs.swap.org/contact-us',
       },
       {
         label: t('Voting'),
@@ -101,11 +111,11 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
       },
       {
         label: t('Docs'),
-        href: 'https://docs.pancakeswap.finance',
+        href: 'https://docs.swap.org',
       },
       {
         label: t('Blog'),
-        href: 'https://pancakeswap.medium.com',
+        href: 'https://swap.org',
       },
       // {
       //   label: t('Merch'),
