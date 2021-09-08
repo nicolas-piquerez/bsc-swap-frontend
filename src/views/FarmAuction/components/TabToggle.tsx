@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex } from '@pancakeswap/uikit'
+import { Flex } from '@swap-org/uikit'
 import styled from 'styled-components'
 
 const Wrapper = styled(Flex)`

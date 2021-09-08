@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading, Text } from '@pancakeswap/uikit'
+import { Heading, Text } from '@swap-org/uikit'
 import { useTranslation } from 'contexts/Localization'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 

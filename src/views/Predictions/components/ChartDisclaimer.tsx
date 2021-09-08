@@ -11,7 +11,7 @@ import {
   Heading,
   Checkbox,
   Box,
-} from '@pancakeswap/uikit'
+} from '@swap-org/uikit'
 import styled from 'styled-components'
 import usePersistState from 'hooks/usePersistState'
 import { useTranslation } from 'contexts/Localization'
