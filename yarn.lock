@@ -3019,10 +3019,10 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
-"@swap-org/uikit@0.49.1":
+"@swap-org/uikit@^0.49.1":
   version "0.49.1"
-  resolved "https://npm.pkg.github.com/download/@swap-org/uikit/0.49.1/e1dc79c97863f27a18d51a2d87a35c8f751f31a741208dafc5c0f46dbf13009b#ab1d8fc641d4360ac5d1b37cb366b33303b457e8"
-  integrity sha512-qJ1Gdmcj2CBOK+BIteqagixBehmEPIz+rzxym8lnqyxFXdLD9z5jesVLGVE5AeLx/f2NLCYU9q/uCjy+hJ8v0g==
+  resolved "https://npm.pkg.github.com/download/@swap-org/uikit/0.49.1/86413b99dcc27678653608762f6280a530f026477d699b07807b745d67e80734#a6a18fc64a56b02095687bc719611a3babaf7be9"
+  integrity sha512-1hFpOLtGVWr5UxHkoR9PHIZ3Z603BjCfo7MO7d11jpjvKdVSvsD50Im/TyxJLA+oHR0ve3IRoTUCDV+L0greqA==
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/lodash" "^4.14.168"
