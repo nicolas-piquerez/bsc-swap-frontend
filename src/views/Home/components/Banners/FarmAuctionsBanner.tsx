@@ -99,7 +99,7 @@ const FarmAuctionsBanner = () => {
           </Link>
         </LeftWrapper>
         <RightWrapper>
-          <img src="/images/decorations/auction-bunny.png" alt={t('auction bunny')} />
+          <img src="/images/decorations/s-logo.png" alt={t('swap logo')} />
         </RightWrapper>
       </Inner>
     </Wrapper>

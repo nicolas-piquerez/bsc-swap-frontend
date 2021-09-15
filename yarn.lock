@@ -3019,10 +3019,10 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
-"@swap-org/uikit@0.49.1":
+"@swap-org/uikit@^0.49.1":
   version "0.49.1"
-  resolved "https://npm.pkg.github.com/download/@swap-org/uikit/0.49.1/1fe8d194e1301cae2dab866fc5264f83de978affa2b73caee837cc80d0bb72fc#db5509f0a621cfe6c2398308752f5a938e440083"
-  integrity sha512-LcodzhYABWHVhaUBh/qKJP0DyJOzO9BfgJ+1IqQcXs9+XjIIv+WWUaDXvT6c51FUj469+rC87Dv8WuvbCCwAYQ==
+  resolved "https://npm.pkg.github.com/download/@swap-org/uikit/0.49.1/e79390125d7ccb493d6716d76bdb59b1e68c3ffa4576459320bd1e619948849e#dfefb25ab5ce3b8432581aa4ccde30de3ae4b610"
+  integrity sha512-pc1TuDnsrYhatjKZ4Ha+rN0shmsIuGDqorWNmXebW58smNAdC62ub2yFWQadtfB3+Dw0qzNw59kvBgYwY0uQnA==
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/lodash" "^4.14.168"
@@ -15220,6 +15220,10 @@ pako@~1.0.5:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
   integrity sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
+
+pancake-toolkit@swap-org/uikit:
+  version "1.0.0"
+  resolved "https://codeload.github.com/swap-org/uikit/tar.gz/b27781d442008691c9c92d1419716f71a8b2c8d4"
 
 parallel-transform@^1.1.0:
   version "1.2.0"
