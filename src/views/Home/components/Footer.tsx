@@ -92,22 +92,22 @@ const Footer = () => {
           <StyledSunburst />
         </Flex>
       </BgWrapper>
-      <FloatingPancakesWrapper>
+      {/* <FloatingPancakesWrapper>
         <TopLeftImgWrapper>
           <CompositeImage {...topLeftImage} maxHeight="256px" />
         </TopLeftImgWrapper>
         <BottomRightImgWrapper>
           <CompositeImage {...bottomRightImage} maxHeight="256px" />
         </BottomRightImgWrapper>
-      </FloatingPancakesWrapper>
+      </FloatingPancakesWrapper> */}
       <Wrapper>
-        <Heading mb="24px" scale="xl" color="white">
+        <Heading mb="24px" scale="xl" color="secondary">
           {t('Start in seconds.')}
         </Heading>
-        <Text textAlign="center" color="white">
+        <Text textAlign="center">
           {t('Connect your crypto wallet to start using the app in seconds.')}
         </Text>
-        <Text mb="24px" bold color="white">
+        <Text mb="24px" bold>
           {t('No registration needed.')}
         </Text>
 

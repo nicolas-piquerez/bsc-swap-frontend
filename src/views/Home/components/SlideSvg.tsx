@@ -8,13 +8,6 @@ export const SlideSvgLight: React.FC<SvgProps> = (props) => {
         d="M804 167.023C520.5 167.023 267.5 290.522 0 304.5V339H1660V0.5C1358.83 0.5 1104 167.023 804 167.023Z"
         fill="url(#paint0_linear_light)"
       />
-      <defs>
-        <linearGradient id="paint0_linear_light" x1="830" y1="84" x2="830" y2="339" gradientUnits="userSpaceOnUse">
-          <stop stopColor="white" stopOpacity="0.48" />
-          <stop offset="0.566389" stopColor="white" stopOpacity="0.35" />
-          <stop offset="1" stopColor="white" />
-        </linearGradient>
-      </defs>
     </Svg>
   )
 }

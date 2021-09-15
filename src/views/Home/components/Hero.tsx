@@ -20,6 +20,18 @@ const flyingAnim = () => keyframes`
   }  
 `
 
+const rotatingAnim = () => keyframes`
+  from {
+    transform: rotate(deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(deg);
+  }  
+`
+
 const fading = () => keyframes`
   from {
     opacity: 0.9;
@@ -49,8 +61,8 @@ const InnerWrapper = styled.div`
 `
 
 const BunnyWrapper = styled.div`
-  width: 100%;
-  animation: ${flyingAnim} 3.5s ease-in-out infinite;
+  width: 75%;
+  animation: ${rotatingAnim} 15s ease-in-out infinite;
 `
 
 const StarsWrapper = styled.div`
@@ -74,17 +86,8 @@ const StarsWrapper = styled.div`
   }
 `
 
-const imagePath = '/images/home/lunar-bunny/'
-const imageSrc = 'bunny'
-
-const starsImage: CompositeImageProps = {
-  path: '/images/home/lunar-bunny/',
-  attributes: [
-    { src: 'star-l', alt: '3D Star' },
-    { src: 'star-r', alt: '3D Star' },
-    { src: 'star-top-r', alt: '3D Star' },
-  ],
-}
+const imagePath = '/images/home/swap-world/'
+const imageSrc = 's-logo'
 
 const Hero = () => {
   const { t } = useTranslation()
@@ -107,7 +110,7 @@ const Hero = () => {
             {t('Swap the world')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('Trade, earn, and win crypto on the most popular decentralized platform in the galaxy.')}
+            {t('Trade and earn crypto with swap.org, the decentralized exchange on Binance Smart Chain (BSC) network.')}
           </Heading>
           <Flex>
             {!account && <ConnectWalletButton mr="8px" />}
@@ -124,11 +127,8 @@ const Hero = () => {
           position="relative"
         >
           <BunnyWrapper>
-            <img src={`${imagePath}${imageSrc}.png`} srcSet={getSrcSet(imagePath, imageSrc)} alt={t('Lunar bunny')} />
+            <img src={`${imagePath}${imageSrc}.png`} srcSet={getSrcSet(imagePath, imageSrc)} alt={t('Swap world')} />
           </BunnyWrapper>
-          <StarsWrapper>
-            <CompositeImage {...starsImage} />
-          </StarsWrapper>
         </Flex>
       </Flex>
     </>

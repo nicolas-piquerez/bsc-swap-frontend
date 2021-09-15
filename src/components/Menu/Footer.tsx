@@ -54,7 +54,7 @@ const Footer = () => {
         width={['100%', '100%', '100%', 'auto']}
         justifyContent={['center', 'center', 'center', 'flex-end']}
       >
-        <BubbleWrapper>
+        {/* <BubbleWrapper>
           <Button
             id="clickExchangeHelp"
             as="a"
@@ -67,8 +67,8 @@ const Footer = () => {
           <Svg viewBox="0 0 16 16">
             <path d="M0 16V0C0 0 3 1 6 1C9 1 16 -2 16 3.5C16 10.5 7.5 16 0 16Z" />
           </Svg>
-        </BubbleWrapper>
-        <Image src="/images/help.svg" alt="Get some help" width={160} height={108} />
+        </BubbleWrapper> */}
+        {/* <Image src="/images/help.svg" alt="Get some help" width={160} height={108} /> */}
       </Flex>
     </Wrapper>
   )
