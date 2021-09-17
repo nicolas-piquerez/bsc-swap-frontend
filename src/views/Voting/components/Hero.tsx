@@ -34,7 +34,7 @@ const Hero = () => {
               {t('Make a Proposal')}
             </Button>
           </Box>
-          <DesktopImage src="/images/voting/voting-presents.png" width={361} height={214} />
+          <DesktopImage src="/images/decorations/s-logo.png" width={150} height={150} />
         </Flex>
       </Container>
     </StyledHero>

@@ -40,7 +40,7 @@ const Footer = () => {
               {t('Make a Proposal')}
             </Button>
           </Box>
-          <DesktopImage src="/images/voting/voting-bunny.png" width={173} height={234} />
+          <DesktopImage src="/images/decorations/s-logo.png" width={150} height={150} />
         </Flex>
       </Container>
     </StyledFooter>
